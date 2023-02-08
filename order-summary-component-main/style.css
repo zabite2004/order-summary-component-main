@@ -1,0 +1,93 @@
+body{
+    background-color:  hsl(225, 100%, 94%);
+    font-family: 'Red Hat Display', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.main-cart{
+    display: flex;
+    flex-direction: column;
+    
+    max-width: 330px;
+    border-radius: 20px;
+    background-color: hsl(225, 100%, 98%);
+    
+}
+.hero{
+    width:330px;
+    border-radius:  20px 20px 0 0;
+}
+.plan{
+    
+    padding-right: 55px;
+}
+.music{
+    padding-right: 20px;
+}
+.proceed{
+    
+    padding:15px ;
+    margin: 15px;
+    border-radius: 10px;
+    background-color:hsl(245, 75%, 52%);
+    color: hsl(225, 100%, 98%);
+    font-weight:600 ;
+    border: none;
+    box-shadow: 0 20px  20px 0 rgba(0,0,0,.2);
+}
+button:hover{
+    background-color:hsl(245, 75%, 65%)
+}
+
+.statistics{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+   background-color:  hsl(225, 100%, 97%);
+   margin: 15px;
+   border-radius: 10px;
+}
+.cancel{
+    margin: 5px 0 25px;
+    text-align: center;
+    color:hsl(224, 23%, 55%); 
+    font-weight: 900;
+}
+.cancel:hover{
+color:  hsl(223, 47%, 23%);
+}
+.paragraph{
+    color: hsl(224, 23%, 55%);
+    text-align: center;
+    margin: 0 30px 5px;
+    font-size: 16px;
+}
+.mainheading{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+.peryear{
+    color: hsl(224, 23%, 55%);
+}
+.annual{
+    
+    font-weight: 900;
+    line-height: 2px;
+}
+ .change:hover{
+    text-decoration: none;
+    color:hsl(245, 75%, 65%) ;
+    font-weight: 600;
+}
+.change{
+    color:hsl(245, 75%, 58%) ;
+    font-weight: 600;
+}
+.image{
+    
+}
+
